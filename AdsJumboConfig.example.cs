@@ -41,9 +41,7 @@ namespace BannerAdHost.AdsJumbo
         /// 4. Remove spaces and convert to lowercase before adding here.
         ///
         /// PowerShell example:
-        ///   Get-AuthenticodeSignature "C:\Path\YourApp.exe" ^
-        ///     | Select-Object -ExpandProperty Certificate ^
-        ///     | Select-Object Subject, Thumbprint
+        ///   Get-AuthenticodeSignature "C:\Path\YourApp.exe" | Select-Object -ExpandProperty SignerCertificate | Select-Object Subject, Thumbprint
         ///
         /// Leave this array empty to disable thumbprint checks.
         /// </summary>
