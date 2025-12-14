@@ -11,6 +11,7 @@ internal static readonly Dictionary<string, string> ApplicationIds =
         ["your_app_name_1"] = "your_app_id_1",
         ["your_app_name_2"] = "your_app_id_2",
     };
+
 internal static readonly string[] TrustedThumbprints =
 {
     "your_app_thumbprint_1",
